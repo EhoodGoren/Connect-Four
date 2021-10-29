@@ -1,0 +1,12 @@
+#board {
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: burlywood;
+    border: black solid 1px;
+}
