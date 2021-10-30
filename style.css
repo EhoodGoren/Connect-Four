@@ -1,16 +1,32 @@
+body {
+    background-color: darkblue;
+}
+
 #board {
-    background-color: blue;
-    height: 500px;
-    width: 500px;
+    background-color: chocolate;
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    border: 1px solid black;
 
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(7, 50px);
+    grid-template-rows: repeat(7, 50px);
 }
 
 .cell {
+    margin: auto;
     width: 30px;
     height: 30px;
     background-color: burlywood;
     border: black solid 1px;
+}
+
+#result {
+    height: 100px;
+    width: 350px;
+    margin: auto;
+    background-color: darkgoldenrod;
+    font-size: 30px;
+    border: 1px solid black;
 }
